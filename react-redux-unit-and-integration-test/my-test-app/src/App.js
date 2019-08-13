@@ -1,13 +1,13 @@
 import React from "react";
+import Header from "./components/header/headerComponent";
+import "./App.scss";
 // import logo from "./logo.svg";
 // import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Jest and Enzyme Test</h1>
-      </header>
+      <Header />
     </div>
   );
 }
